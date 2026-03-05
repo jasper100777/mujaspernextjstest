@@ -37,12 +37,12 @@ export default function Home() {
         </header>
 
         <main className="max-w-4xl mx-auto space-y-10">
-          <section className="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg">
+          <section className="bg-blue-700 p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-semibold mb-3">Summary</h2>
             <p>{resumeData.summary}</p>
           </section>
 
-          <section className="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg">
+          <section className="bg-blue-700 p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-semibold mb-3">Skills</h2>
             <ul className="flex flex-wrap gap-3">
               {resumeData.skills.map((skill, index) => (
@@ -56,7 +56,7 @@ export default function Home() {
             </ul>
           </section>
 
-          <section className="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg">
+          <section className="bg-blue-700 p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-semibold mb-5">Experience</h2>
             {resumeData.experience.map((exp, index) => (
               <div key={index} className="mb-6">
